@@ -90,17 +90,14 @@ h1 {
 	font-size: 3em;
 	display: block;
 	white-space: nowrap;
-	padding-top: 80px;
+	padding-top: 60px;
 }
 
 .highlighted {
-	width: 15%;
-	text-align: left;
-	color: red;
-	font-size: 5em;
+	color: yellow;
 	display: block;
 	white-space: nowrap;
-	padding-top: 80px;
+	padding-top: 60px;
 }
 
 #contentDiv{
