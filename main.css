@@ -59,14 +59,11 @@ body {
 
 div {
 	color: white;
-	padding-left: 20px;
 	margin: 0;
 	text-align: center;
 }
 
 #header {
-	padding-top: 200px;
-	padding-left: 20px;
 	border: 2px solid;
 	border-radius: 25px;
 	border-color: #FFFFFF;
