@@ -69,8 +69,6 @@ div {
 	border: 2px solid;
 	border-radius: 100%;
 	border-color: white;
-	background-color: #008B8B;
-	color: white;
 	width: 200px;
 	height: 200px;
 }
@@ -105,8 +103,13 @@ h1 {
 	color: yellow;
 }
 
+.unclicked {
+	background-color: #008B8B;
+	color: white;
+}
+
 .clicked {
-	background-color: #FFFFFF;
+	background-color: white;
 	color: #008B8B;
 }
 
