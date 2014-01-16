@@ -61,6 +61,11 @@ div {
 	text-align: center;
 }
 
+a {
+	text-decoration: underline;
+	color: #008B8B;
+}
+ 
 #header {
 	margin-top: 85px;
 	margin-left: auto;
@@ -127,6 +132,11 @@ h1 {
 	color: #008B8B;
 }
 
+.content {
+	background-color: white;
+	color: #008B8B;
+}
+
 #educationContent {
 	position: absolute;
 	left: 110px;
@@ -154,6 +164,8 @@ h1 {
 
 #workContent {
 	margin-top: 40px;
+	background-color: #008B8B;
+	color: white;
 }
 
 .workBoxes {
@@ -163,6 +175,8 @@ h1 {
 	border-color: white;
 	border-radius: 10px;
 	height: 150px;
+	background-color: white;
+	color: #008B8B;
 }
 
 #consulting {
@@ -200,6 +214,14 @@ h1 {
 	padding-left: 5px;
 }
 
-table {
-	border: 1px solid black;
+#consultingImages{
+	margin-top: 15px;
+}
+
+#IBMLogo {
+	margin-left: 10px;
+}
+
+#DeloitteLogo {
+	margin-top: 5px;
 }
