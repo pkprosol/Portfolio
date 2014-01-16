@@ -69,9 +69,9 @@ div {
 	margin-right: auto;
 	border: 2px solid;
 	border-radius: 100%;
-	border-color: #FFFFFF;
-	background-color: #FFFFFF;
-	color: #008B8B;
+	border-color: white;
+	background-color: #008B8B;
+	color: white;
 	width: 200px;
 	height: 200px;
 }
