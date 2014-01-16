@@ -3,7 +3,6 @@ $(document).ready(function() {
 		$(this).toggleClass("highlighted");
 	});
 	$('#header').click(function() {
-		$(this).animate({ padding-top: "-=50",}, 1000);
 	});
 	$('.categories').hide();
 	$('.content').hide();
