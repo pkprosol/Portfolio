@@ -22,5 +22,12 @@ $(document).ready(function() {
 		$('#educationContent').toggle();
 	});	
 
+	$('#work').click(function() {
+		$('#workContent').toggle();
+	});
+
+	$('#personal').click(function() {
+		$('#personalContent').toggle();
+	});
 
 });
