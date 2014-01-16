@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('.content').hide();
 	$('#education').hover(function() {
-		$(this).addClass("highlighted");
+		$(this).removeClass("categories").addClass("highlighted");
 		$('.content').hide();
 		$('#educationContent').show();
 	});
