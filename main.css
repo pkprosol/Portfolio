@@ -70,6 +70,8 @@ div {
 	border: 2px solid;
 	border-radius: 100%;
 	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	color: #008B8B;
 	width: 200px;
 	height: 200px;
 }
