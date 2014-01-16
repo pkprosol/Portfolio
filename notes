@@ -55,3 +55,8 @@
 </body>
 
 #2E8B57
+
+ {
+			$('.categories').hide();
+			$('.content').hide();
+		}
