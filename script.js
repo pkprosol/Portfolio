@@ -27,7 +27,5 @@ $(document).ready(function() {
 		$('.content').hide();
 		$('#personalContent').show();
 	});
-	$('#contentDiv').mouseleave(function() {
-		$('.content').hide();
-	});
+
 });
