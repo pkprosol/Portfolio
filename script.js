@@ -7,19 +7,16 @@ $(document).ready(function() {
 	});
 	$('#experience').hover(function() {
 		$(this).toggleClass("highlighted");		
-		$(this).addClass("highlighted");
 		$('.content').hide();
 		$('#experienceContent').show();
 	});
 	$('#work').hover(function() {
 		$(this).toggleClass("highlighted");
-		$(this).addClass("highlighted");
 		$('.content').hide();
 		$('#workContent').show();
 	});
 	$('#personal').hover(function() {
 		$(this).toggleClass("highlighted");
-		$(this).addClass("highlighted");
 		$('.content').hide();
 		$('#personalContent').show();
 	});
