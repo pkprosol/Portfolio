@@ -80,14 +80,14 @@ h1 {
 }
 
 #categoryDiv {
-	width: 20%;
+	width: 15%;
 	display: inline-block;
 	white-space: nowrap;
 	float: left;
 }
 
 .categories {
-	width: 20%;
+	width: 15%;
 	text-align: left;
 	font-size: 3em;
 	display: block;
