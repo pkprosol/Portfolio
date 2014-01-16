@@ -2,6 +2,9 @@ $(document).ready(function() {
 	$('#header').click(function() {
 		$(this).toggleClass("clicked");
 		$('.categories').toggle(showOrHide);
+		$(this).animate({
+			marginTop: "75px"
+		}, 1000 );
 	});
 //	$('.categories').hide();
 	$('.categories').click(function() {
