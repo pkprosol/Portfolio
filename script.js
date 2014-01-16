@@ -1,21 +1,24 @@
 $(document).ready(function() {
 	$('.content').hide();
 	$('#education').hover(function() {
-		$(this).removeClass("categories").addClass("highlighted");
+		$(this).toggleClass("highlighted");
 		$('.content').hide();
 		$('#educationContent').show();
 	});
 	$('#experience').hover(function() {
+		$(this).toggleClass("highlighted");		
 		$(this).addClass("highlighted");
 		$('.content').hide();
 		$('#experienceContent').show();
 	});
 	$('#work').hover(function() {
+		$(this).toggleClass("highlighted");
 		$(this).addClass("highlighted");
 		$('.content').hide();
 		$('#workContent').show();
 	});
 	$('#personal').hover(function() {
+		$(this).toggleClass("highlighted");
 		$(this).addClass("highlighted");
 		$('.content').hide();
 		$('#personalContent').show();
