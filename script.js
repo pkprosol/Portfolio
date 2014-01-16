@@ -9,6 +9,7 @@ $(document).ready(function() {
 		console.log(!clickedStatus);
 		if(!clickedStatus) {
 			$('.content').hide();
+			$('.categories').removeClass("clicked");
 		}
 	});
 
