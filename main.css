@@ -95,6 +95,11 @@ h1 {
 	padding-top: 80px;
 }
 
+.highlighted {
+	font-color: gold;
+	font-size: 1.5m;
+}
+
 #contentDiv{
 	width: 60%;
 	display: inline-block;
