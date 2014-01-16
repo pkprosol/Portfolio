@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$('#header').click(function() {
 		$(this).toggleClass("clicked");
 	});
-	$('.categories').hide();
+//	$('.categories').hide();
 	$('.content').hide();
 	$('#education').hover(function() {
 		$(this).toggleClass("highlighted");
