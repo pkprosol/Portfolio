@@ -98,7 +98,7 @@ h1 {
 .highlighted {
 	width: 15%;
 	text-align: left;
-	font-color: red;
+	color: red;
 	font-size: 5em;
 	display: block;
 	white-space: nowrap;
