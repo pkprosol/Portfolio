@@ -65,8 +65,9 @@ div {
 
 #header {
 	border: 2px solid;
-	border-radius: 25px;
+	border-radius: 100%;
 	border-color: #FFFFFF;
+	width: 25px;
 }
 
 h1 {
