@@ -1,4 +1,11 @@
 $(document).ready(function() {
+	$('#header').hover(function() {
+		$(this).toggleClass("highlighted");
+	});
+	$('#header').click(function() {
+		$(this).animate({ bottom: "+=50",}, 5000);
+	});
+	$('.categories').hide();
 	$('.content').hide();
 	$('#education').hover(function() {
 		$(this).toggleClass("highlighted");
