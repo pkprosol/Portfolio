@@ -3,7 +3,7 @@ $(document).ready(function() {
 		$(this).toggleClass("highlighted");
 	});
 	$('#header').click(function() {
-		
+		$(this).toggleClass("clicked");
 	});
 	$('.categories').hide();
 	$('.content').hide();
