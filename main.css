@@ -101,10 +101,6 @@ h1 {
 	white-space: nowrap;
 }
 
-.highlighted {
-	color: yellow;
-}
-
 .unclicked {
 	background-color: #008B8B;
 	color: white;

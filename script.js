@@ -1,11 +1,13 @@
 $(document).ready(function() {
-	$('#header').hover(function() {
-		$(this).toggleClass("highlighted");
-	});
 	$('#header').click(function() {
 		$(this).toggleClass("clicked");
+		$('.categories').toggle(showOrHide);
 	});
 //	$('.categories').hide();
+	$('.categories').click(function() {
+		$(this).toggleClass("clicked");
+	});
+
 	$('.content').hide();
 	$('#education').hover(function() {
 		$(this).toggleClass("highlighted");
