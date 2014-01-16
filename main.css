@@ -1,0 +1,57 @@
+@import url("/Users/Peter/Google_Drive/Programming/reset.css");
+
+body {
+	font-family: "Gotham",Arial,sans-serif;
+	background-color:#202020;
+
+}
+
+div {
+	color: white;
+	padding-left: 10px;
+
+}
+
+#header {
+
+	padding-top: 10px;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+#namePart {
+	font-size: 0.85em;
+}
+
+#categoryDiv {
+	width: 20%;
+	display: inline-block;
+	white-space: nowrap;
+	float: left;
+}
+
+.categories {
+	width: 20%;
+	text-align: left;
+	font-size: 3em;
+	display: block;
+	white-space: nowrap;
+	padding-top: 80px;
+}
+
+#contentDiv{
+	width: 60%;
+	display: inline-block;
+	white-space: nowrap;
+	float: right;
+}
+
+.content {
+	padding-top: 80px;
+
+}
+
+.labels {
+}
