@@ -68,7 +68,8 @@ div {
 	border: 2px solid;
 	border-radius: 100%;
 	border-color: #FFFFFF;
-	width: 25px;
+	width: 200px;
+	height: 200px;
 }
 
 h1 {
