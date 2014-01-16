@@ -96,8 +96,13 @@ h1 {
 }
 
 .highlighted {
+	width: 15%;
+	text-align: left;
 	font-color: gold;
 	font-size: 1.5m;
+	display: block;
+	white-space: nowrap;
+	padding-top: 80px;
 }
 
 #contentDiv{
