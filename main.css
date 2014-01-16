@@ -129,8 +129,17 @@ h1 {
 
 #educationContent {
 	position: absolute;
-	left: 125px;
-	top: 210px;
+	left: 100px;
+	top: 191px;
+	height: 250px;
+	width: 275px;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 10px;
+}
+
+#yaleLogo {
+	margin-top: 20px;
 }
 
 #eduCaption {
@@ -142,7 +151,7 @@ h1 {
 }
 
 #workContent {
-	margin-top: 25px;
+	margin-top: 40px;
 }
 
 .workBoxes {
@@ -168,3 +177,13 @@ h1 {
 	width: 300px;
 }
 
+#personalContent {
+	position: absolute;
+	right: 100px;
+	top: 191px;
+	height: 250px;
+	width: 275px;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 10px;
+}
