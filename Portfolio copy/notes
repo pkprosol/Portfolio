@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+	<div id="header">
+		<h1>P<span id="namePart">IOTR</span> K P<span id="namePart">ROSOL</span></h1>
+	</div>
+
+	<div id="categoryDiv">
+		<div id="education" class="categories"><span class="labels">E<span id="namePart">DUCATION</span></span></div>
+		<div id="experience" class="categories"><span class="labels">E<span id="namePart">XPERIENCE</span></span></div>
+		<div id="work" class="categories"><span class="labels">W<span id="namePart">ORK</span>+S<span id="namePart">KILLS</span></span></div>
+		<div id="personal" class="categories"><span class="labels">P<span id="namePart">ERSONAL</span></span></div>
+	</div>
+
+	<div id="contentDiv">
+		<div id="educationContent" class="content">
+			<img src="yalelogo2.jpeg">
+		</div>
+		
+		<div id="experienceContent" class="content">
+			<table>
+				<tr>
+					<td>Entrepreneur (current):</td>
+					<td>Co-Founder, Head of Marketing @ Lifestreams/Groupology</td>
+				<tr>
+					<td>Strategy Consultant (2008-2013):</td>
+					<td>Deloitte, IBM, Capital One</td>
+				<tr>
+					<td>Non-Profit Manager (2010-2013):</td>
+					<td>Treasurer, Global Community Charter School</td>
+			</table>
+		</div>
+
+		<div id="workContent" class="content">
+			<table>
+				<tr>
+					<td><a href="https://github.com/pkprosol/">Github:</a></td>
+					<td>
+
+					</td>
+		</div>
+		
+		<div id="personalContent" class="content">
+			<a href="https://www.facebook.com/pprosol">Facebook</a>
+		</div>
+	</div>
+
+</body>
+
+#2E8B57
+
+ {
+			$('.categories').hide();
+			$('.content').hide();
+		}

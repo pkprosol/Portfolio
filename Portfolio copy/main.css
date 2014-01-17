@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* BEGINNING OF CODE*/
+
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #008B8B;
+	color: white;
+}
+
+div {
+	text-align: center;
+}
+
+a {
+	text-decoration: underline;
+	color: #008B8B;
+}
+ 
+#header {
+	margin-top: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid;
+	border-radius: 100%;
+	border-color: white;
+	width: 200px;
+	height: 200px;
+}
+
+h1 {
+	padding-top: 61px;
+	font-size: 2em;
+	margin: 0;
+}
+
+#namePart {
+	font-size: 0.85em;
+}
+
+.categories {
+	border: 1px solid;
+	border-radius: 100%;
+	border-color: white;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	font-size: 1.35em;
+}
+
+#middle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+#educationContent {
+	position: relative;
+	float: left;	
+	height: 180px;
+	width: 200px;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 10px;
+}
+
+#education {
+	position: relative;
+	float: left;
+}
+
+#work {
+	position: relative;
+	float: left;
+}
+
+#personal {
+	position: relative;
+	float: left;
+}
+
+#personalContent {
+	position: relative;
+	float: left;
+	height: 195px;
+	width: 200px;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 10px;
+}
+
+
+#eduLabel {
+	padding-top: 65px;
+}
+
+#workLabel {
+	padding-top: 40px;
+}
+
+#personalLabel {
+	padding-top: 65px;	
+}
+
+.clicked {
+	background-color: white;
+	color: #008B8B;
+}
+
+.content {
+	background-color: white;
+	color: #008B8B;
+}
+
+#yaleLogo {
+	margin-top: 20px;
+}
+
+#eduCaption {
+	padding-top: 10px;
+	font-size: 0.8em;
+
+}
+
+.workCategories {
+	font-weight: bold;
+	font-size: 1.25em;
+	margin-top: 10px;	
+}
+
+#workContent {
+	margin-top: 40px;
+	width: 988px;
+	background-color: #008B8B;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.workBoxes {
+	text-align: center;
+	float: left;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 10px;
+	height: 165px;
+	background-color: white;
+	color: #008B8B;
+}
+
+#consulting {
+	width: 300px;
+}
+
+#entrepreneurship {
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 350px;
+}
+
+#hacking {
+	width: 300px;
+}
+
+#socialLinks {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rightLinkCell {
+	padding-left: 5px;
+}
+
+#consultingImages{
+	margin-top: 20px;
+}
+
+#IBMLogo {
+	margin-left: 10px;
+}
+
+#DeloitteLogo {
+	margin-top: 5px;
+}
+
+#entrepreneurshipTable {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#entrepreneurshipTable td {
+	text-align: left;
+	vertical-align: middle;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+#hackerTable {
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+#hackerTable td {
+	vertical-align: middle;
+	padding: 4px;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+.hackerImages td {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#RRLogo {
+	margin-left: 25px;
+}
+
+
