@@ -78,7 +78,7 @@ a {
 }
 
 h1 {
-	padding-top: 58px;
+	padding-top: 61px;
 	font-size: 2em;
 	margin: 0;
 }
@@ -164,17 +164,20 @@ h1 {
 
 #workContent {
 	margin-top: 40px;
+	width: 988px;
 	background-color: #008B8B;
 	color: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .workBoxes {
 	text-align: center;
-	display: inline-block;
+	float: left;
 	border: 1px solid;
 	border-color: white;
 	border-radius: 10px;
-	height: 150px;
+	height: 165px;
 	background-color: white;
 	color: #008B8B;
 }
@@ -186,7 +189,7 @@ h1 {
 #entrepreneurship {
 	margin-left: 15px;
 	margin-right: 15px;
-	width: 400px;
+	width: 350px;
 }
 
 #hacking {
@@ -215,7 +218,7 @@ h1 {
 }
 
 #consultingImages{
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 #IBMLogo {
@@ -225,3 +228,40 @@ h1 {
 #DeloitteLogo {
 	margin-top: 5px;
 }
+
+#entrepreneurshipTable {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#entrepreneurshipTable td {
+	text-align: left;
+	vertical-align: middle;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+#hackerTable {
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+#hackerTable td {
+	vertical-align: middle;
+	padding: 4px;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+.hackerImages td {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#RRLogo {
+	margin-left: 25px;
+
+}
+
+

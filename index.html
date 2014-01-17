@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <head>
-
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
@@ -46,9 +45,9 @@
 				<h3 id="consultingBox" class="workCategories">Strategy Consultant<br></h3>
 				
 				<div id="consultingImages">
-					<img src="capitalone.jpg" width=auto height="40px">
-					<img id="IBMLogo" src="IBM_logo.jpg" width=auto height="40px">
-					<img id="DeloitteLogo" src="Logo-Deloitte.jpg" width=auto height="35px">
+					<img src="capitalone.jpg" height="40px">
+					<img id="IBMLogo" src="IBM_logo.jpg" height="40px">
+					<img id="DeloitteLogo" src="Logo-Deloitte.jpg" height="35px">
 				</div>
 
 			</div>
@@ -56,25 +55,38 @@
 			<div id="entrepreneurship" class="workBoxes">
 				<h3 id="entrepreneurshipBox" class="workCategories">Entrepreneur<br></h3>
 				
-				<p><a href="http://groupolo.gy">Groupology</a>: Co-Founder, Head of Marketing</p>
-				<p><a href="http://rehydrateandrecover.com">Rehydrate+Recover</a>: Co-Founder, COO</p>
+				<table id="entrepreneurshipTable">
+					<tr>
+						<td>
+							<a href="http://groupolo.gy"><img id="GroupologyLogo" src="Groupology_horizontal_w_arch.jpg" width="140px"></a>
+						</td>
+						<td>Co-Founder, CMO <span class="proLinks"> (<a href="http://groupolo.gy">link</a>)</span></td>
+					</tr>
+					<tr>
+						<td>
+							<a href="http://rehydrateandrecover.com"><img id="RRLogo" src="RRlogo.png" width="100px"></a>
+						</td>
+						<td>Co-Founder, COO <span class="proLinks"> (<a href="http://rehydrateandrecover.com">link</a>)</span></td>
+					</tr>
+				</table>
 
 			</div>
 
 			<div id="hacking" class="workBoxes">
-				<h3 id="hackerBox" class="workCategories">Hacker<br></h3>
+				<h3 id="hackerBox" class="workCategories">Aspiring Hacker<br></h3>
 				
-				<table>
+				<table id="hackerTable">
 					<tr>
-						<td>Codecademy</td>
-						<td>Thinkful</td>
+						<td><img src="thinkful.png" width="80px" class="hackerImages"></td>
+						<td>Web Front End (1/14)</td>
 					</tr>
 					<tr>
-						<td></td>
-						<td></td>
+						<td><img src="codecademy.png" width="75px" class="hackerImages"></td>
+						<td>JS, jQuery, APIs <a href="http://www.codecademy.com/pkprosol">and more</a></td>
 					</tr>
 					<tr>
-						<td><a href="https://github.com/pkprosol/">Github</a></td>
+						<td><img src="github.png" width="80px" class="hackerImages"></td>
+						<td><a href="https://github.com/pkprosol/">My GitHub account</a></td>
 					</tr>
 				</table>
 			</div>
