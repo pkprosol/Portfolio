@@ -99,14 +99,14 @@ h1 {
 
 #education {
 	position: absolute;
-	left: 30%;
-	top: 30%;
+	left: 26.5%;
+	top: 235px;
 }
 
 #personal {
 	position: absolute;
-	right: 30%;
-	top: 30%;
+	right: 26.5%;
+	top: 235px;
 }
 
 #work {
@@ -139,10 +139,10 @@ h1 {
 
 #educationContent {
 	position: absolute;
-	left: 7%;
-	top: 30%;
-	height: 190px;
-	width: 270px;
+	left: 6%;
+	top: 235px;
+	height: 180px;
+	width: 200px;
 	border: 1px solid;
 	border-color: white;
 	border-radius: 10px;
@@ -154,6 +154,8 @@ h1 {
 
 #eduCaption {
 	padding-top: 10px;
+	font-size: 0.8em;
+
 }
 
 .workCategories {
@@ -198,8 +200,8 @@ h1 {
 
 #personalContent {
 	position: absolute;
-	right: 12%;
-	top: 30%;
+	right: 6%;
+	top: 235px;
 	height: 195px;
 	width: 200px;
 	border: 1px solid;
@@ -261,7 +263,6 @@ h1 {
 
 #RRLogo {
 	margin-left: 25px;
-
 }
 
 
