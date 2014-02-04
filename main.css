@@ -78,7 +78,7 @@ a {
 }
 
 h1 {
-	padding-top: 75px;
+	padding-top: 72px;
 	font-size: 2em;
 	margin: 0;
 }
@@ -116,15 +116,15 @@ h1 {
 }
 
 #eduLabel {
-	padding-top: 75px;
+	padding-top: 70px;
 }
 
 #workLabel {
-	padding-top: 40px;
+	padding-top: 50px;
 }
 
 #personalLabel {
-	padding-top: 65px;	
+	padding-top: 70px;	
 }
 
 .clicked {
